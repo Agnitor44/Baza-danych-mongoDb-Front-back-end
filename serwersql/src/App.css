@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  background-color: cadetblue;
+
+}
+
+.App input {
+  width: 25%;
+}
+button {
+  border: solid black 3px;
+  font-size: 26px;
+  
+}
+.App  button.add{
+ width: 25%;
+ margin: 1% 0;
+ height: 4vh ;
+}
+button.filtr {
+  width: 12.5%,
+
+}
+button.sr {
+  margin: 1%;
+}
+.select {
+  width: 25%;
+  text-align: center;
+}
+.wyniki p {
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 1% 6%;
+}
+.wyniki {
+  background-color: rgb(168, 168, 168);
+  border: black 2px solid;
+}
+.wyniki button {
+  display: inline-block;
+ 
+}
+.wyniki h3 {
+  display: inline-block;
+  border-right: black solid 2px;
+  padding-right: 5px;
+  
+}
+.wyniki div.part {
+  display: inline-block;
+  border-left: black 2px solid;
+  border-right: black 2px solid;
+width: 15%;
+
+}
+
+.wyniki button {
+ 
+  float: right;
+  border: none;
+}
+.wyniki .update {
+  float: left;
+  background-color: rgb(112, 111, 111);
+}
+.wyniki .update:hover {
+  cursor: pointer;
+}
+.up {
+  cursor: pointer;
+  float: left;
+  background-color: rgb(112, 111, 111);
+}
+.mody {
+  background-color: rgb(168, 168, 168);
+  height: 10vh;
+}
+.mody input {
+  margin: 1%;
+  margin-top: 4vh;
+}
